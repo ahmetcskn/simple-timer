@@ -6,7 +6,7 @@ def main():
     root.title("Simple Timer")
     root.geometry("200x100")
     root.attributes("-topmost", True)
-    root.iconbitmap("C:/Users/ahmet/Desktop/simple-timer/icon/1651629.ico")
+    root.iconbitmap("")
     create_interface(root)
     root.mainloop()
 
