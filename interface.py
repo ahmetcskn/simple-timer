@@ -42,11 +42,11 @@ def create_interface(root):
 
     update_time(time_label)
 
-    start_button = tk.Button(frame, text="Başlat", command=start_timer)
+    start_button = tk.Button(frame, text="Start", command=start_timer)
     start_button.pack(side=tk.LEFT)
 
-    stop_button = tk.Button(frame, text="Durdur", command=stop_timer)
+    stop_button = tk.Button(frame, text="Stop", command=stop_timer)
     stop_button.pack(side=tk.LEFT)
 
-    reset_button = tk.Button(frame, text="Sıfırla", command=lambda: reset_timer(time_label))
+    reset_button = tk.Button(frame, text="Reset", command=lambda: reset_timer(time_label))
     reset_button.pack(side=tk.LEFT)
