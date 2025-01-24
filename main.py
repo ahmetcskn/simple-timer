@@ -6,7 +6,7 @@ def main():
     root.title("Simple Timer")
     root.geometry("200x100")
     root.attributes("-topmost", True)
-    root.iconbitmap("")
+    #root.iconbitmap("")
     create_interface(root)
     root.mainloop()
 
